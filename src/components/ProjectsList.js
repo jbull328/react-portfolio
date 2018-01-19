@@ -14,13 +14,15 @@ class ProjectsList extends Component {
           projectTitle: 'This is the awsome project',
           projectSkills: 'I got the skills yo!',
           img: defaultImage,
-          projectDescription: 'This is the dopest project eva!'
+          projectDescription: 'This is the dopest project eva!',
+          projectUrl: "https://google.com",
         },  {
           id: 'proj2',
           projectTitle: 'The Best',
           projectSkills: 'React, and Node',
           img: defaultImage,
-          projectDescription: 'This is the dopest project eva!'
+          projectDescription: 'This is the dopest project eva!',
+          projectUrl: "https://facebook.com",
         },
     
       ];
@@ -36,12 +38,12 @@ class ProjectsList extends Component {
     return (
       <div className="projectList">{this.state.projects.map(projects => {
         return(
-          <div className="projectCard container" key={projects.id}>
-            <img className="projectImg" src={defaultImage} />
+          <a href={projects.projectUrl}><div className="projectCard container" key={projects.id}>
+            <img className="projectImg" src={projects.img} />
             <h3 className="projectTitle">{projects.projectTitle}</h3>
             <p className="projectDescription">{projects.projectDescription}</p>
             <p className="projectSkills">{projects.projectSkills}</p>
-          </div>
+          </div></a>
         )
       })}</div>
     );
