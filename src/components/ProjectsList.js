@@ -21,7 +21,7 @@ class ProjectsList extends Component {
           projectTitle: 'The Best',
           projectSkills: 'React, and Node',
           img: defaultImage,
-          projectDescription: 'This is the dopest project eva!',
+          projectDescription: 'I built this site with Node, Express, and MongoDB, it is hosted on AWS and is something I build to help the community of developers that I work with. Through this app I have learned to become comfortable with REST and creating routes. Object-oriented development and many Node packages and libraries like passport js and multer. I have learned a lot while building it and it has been great to give back to my local community.',
           projectUrl: "https://facebook.com",
         },
     
@@ -40,9 +40,11 @@ class ProjectsList extends Component {
         return(
           <a href={projects.projectUrl}><div className="projectCard container" key={projects.id}>
             <img className="projectImg" src={projects.img} />
-            <h3 className="projectTitle">{projects.projectTitle}</h3>
-            <p className="projectDescription">{projects.projectDescription}</p>
-            <p className="projectSkills">{projects.projectSkills}</p>
+            <article>
+              <h3 className="projectTitle">{projects.projectTitle}</h3>
+              <p className="projectDescription">{projects.projectDescription}</p>
+              <p className="projectSkills">{projects.projectSkills}</p>
+            </article>     
           </div></a>
         )
       })}</div>

@@ -24,7 +24,6 @@
 }
 
 .App-header: :nth-child(2) {
-  flex-grow: auto;
 }
 
 .brand {
@@ -33,20 +32,54 @@
   align-items: flex-start;
 }
 
+.links, a {
+  margin: 8.5px;
+}
 .projectList {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
+  margin: 4% 4.8%;
 }
 
 .projectCard {
   display: flex;
+  max-width: 325px;
   flex-direction: column;
-  background: #ddd;
+  background: #fff;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
+.projectCard:hover {
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+}
 
-.projectCard, p {
+.projectCard, img {
+  width: 100%;
+}
 
+.projectCard article {
+  padding: 20px;
+  flex: 1;
+}
+
+/* typography */
+.projectCard h3 {
+  font-size: 20px;
+  color: #333;
+}
+ 
+.projectCard p { 
+  line-height: 1.4;
+}
+ 
+.projectSkills {
+  font-size: 12px;
+  font-weight: bold;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: .05em;
 }

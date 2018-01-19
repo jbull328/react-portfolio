@@ -22,8 +22,10 @@ class App extends Component {
             <h3 className="App-title">Available for Hire</h3>
           </div>
           <img src={logo} className="App-logo" alt="logo" />
-          <Link to="/about" component={About}>About</Link> 
-          <Link to="/Projects" component={ProjectsList}>Projects</Link> 
+          <div className="links">
+            <Link to="/about" component={About}>About</Link> 
+            <Link to="/Projects" component={ProjectsList}>Projects</Link>
+          </div>   
         </header>
         <Switch>
           <Route path="/Projects" component={ProjectsList} />
