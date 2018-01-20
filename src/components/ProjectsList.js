@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 import defaultImage from '../img/default.jpg';
+import centralIMG from '../img/centralProject.png';
+import movieImg from '../img/movie.png';
+import storageImage from '../img/ellis.png';
+import teeShirtImg from '../img/teeshirt.png';
+import twitchImg from '../img/twitch.png';
+
 
 class ProjectsList extends Component {
   state  = {
@@ -11,18 +17,39 @@ class ProjectsList extends Component {
       const projects = [
         {
           id: 'proj1',
-          projectTitle: 'This is the awsome project',
-          projectSkills: 'I got the skills yo!',
-          img: defaultImage,
-          projectDescription: 'This is the dopest project eva!',
-          projectUrl: "https://google.com",
+          projectTitle: 'Movie Me',
+          projectSkills: 'React 16, React Router, Styled Components, API Integration',
+          img: movieImg,
+          projectDescription: 'Using the powerful Async Await to pull a dynamic list of Movies from an API and diplay them beautifly with styled components',
+          projectUrl: "https://ancient-lowlands-96970.herokuapp.com/",
         },  {
           id: 'proj2',
-          projectTitle: 'The Best',
-          projectSkills: 'React, and Node',
-          img: defaultImage,
-          projectDescription: 'I built this site with Node, Express, and MongoDB, it is hosted on AWS and is something I build to help the community of developers that I work with. Through this app I have learned to become comfortable with REST and creating routes. Object-oriented development and many Node packages and libraries like passport js and multer. I have learned a lot while building it and it has been great to give back to my local community.',
-          projectUrl: "https://facebook.com",
+          projectTitle: 'Central Valley Developers',
+          projectSkills: 'Node.js, Express, EJS, AWS, MongoDB',
+          img: centralIMG,
+          projectDescription: 'I built this site with Node, Express, and MongoDB, it is hosted on AWS and is something I build to help the community of developers that I work with.',
+          projectUrl: "http://centralvalleydevelopers.com",
+        }, {
+          id: 'proj3',
+          projectTitle: 'Tee Shirt Picker',
+          projectSkills: 'React, Cloudinary API',
+          img: teeShirtImg,
+          projectDescription: 'This React demo is interactive and was fun to make and use. It uses React and Node.js, integrates with the Cloudinary API for image manipulation and is hosted on Heroko so give it a second to load.',
+          projectUrl: "https://frozen-reef-26242.herokuapp.com/",
+        }, {
+          id: 'proj4',
+          projectTitle: 'Elis Self Storage',
+          projectSkills: 'Html, CSS, SQL, Web Hosting DNS',
+          img: storageImage,
+          projectDescription: 'This small business site needed to be updated and have outdated content removed. It was an older framework and I had to reverse engineer the code as well as rehost it on a modern hosting platform.',
+          projectUrl: "http://ellisturlockstorage.com/",
+        }, {
+          id: 'proj5',
+          projectTitle: 'Twitch Friends',
+          projectSkills: 'Jquery, HTML, CSS, API integration',
+          img: twitchImg,
+          projectDescription: 'This example integrates the Twitch API to show your favorite twitch streamers and filters by streaming status. It uses Jquery and integrates into the Twitch api.',
+          projectUrl: "https://jbull328.github.io/portfolio/projects/twitchFriends/twitchFriends.html",
         },
     
       ];
