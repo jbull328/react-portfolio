@@ -5,6 +5,8 @@ import movieImg from '../img/movie.png';
 import storageImage from '../img/ellis.png';
 import teeShirtImg from '../img/teeshirt.png';
 import twitchImg from '../img/twitch.png';
+import inzana from '../img/inzana.png';
+import iec from '../img/IEC.png';
 
 
 class ProjectsList extends Component {
@@ -50,8 +52,21 @@ class ProjectsList extends Component {
           img: twitchImg,
           projectDescription: 'This example integrates the Twitch API to show your favorite twitch streamers and filters by streaming status. It uses Jquery and integrates into the Twitch api.',
           projectUrl: "https://jbull328.github.io/portfolio/projects/twitchFriends/twitchFriends.html",
-        },
-    
+        },{
+          id: 'proj6',
+        projectTitle: 'Inzana Farms',
+        projectSkills: 'Less, Mobile Optimization, E-Commerce, Cross-Browser Testing',
+        img: inzana,
+        projectDescription: 'I worked with a remote team on this project, mainly focusing on polishing the design elements for mobile and creating the header elements.',
+        projectUrl: "https://inzanaranch.com/",
+        }, {
+          id: 'proj7',
+        projectTitle: 'Industrial Electrical',
+        projectSkills: 'SQL Quireies, Internal Facing, HTML Emails',
+        img: iec,
+        projectDescription: 'I created, maintained internal web apps. This included reporting for differnet departments, automating processes, and sending out custom styled html emails to automate tasks.',
+        projectUrl: "http://industrialelectricalco.com/",
+      }
       ];
       this.setState({
         projects,
