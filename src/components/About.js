@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import defaultImage from '../img/default.jpg';
 import meImg from '../img/me_bw.JPG';
 import styled from 'styled-components';
+import Contact from './Contact';
 
 class About extends Component {
   render () {
@@ -9,6 +10,7 @@ class About extends Component {
       <AboutWrapper>
         <AboutInfo>
           <img src={meImg}/>
+          <Contact />
           <h2>The right mix of expeirence and creativity</h2>
           <p>I have worked with distributed teams on large software rollouts in an agile team. I am currently working on FullStack projects and Freelancing. I am interested in working with an Agile team, following scrum practices. I like working with React, Node.JS, Express.js, Javascript, MongoDB, Linux, Git, and AWS. 
           I have been in the business of learning daily and working on a wide range of technologies and projects.
