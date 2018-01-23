@@ -17,11 +17,12 @@ class App extends Component {
       <Router>
         <div className="App">
         <header className="App-header container">
+          <img src={logo} className="App-logo" alt="logo" />
           <div className="brand container">
             <h1 className="App-title">John Bull ~ Software Engineer</h1>
             <h3 className="App-title">Available for Hire</h3>
           </div>
-          <img src={logo} className="App-logo" alt="logo" />
+         
           <div className="links">
             <Link to="/about" component={About}>About</Link> 
             <Link to="/Projects" component={ProjectsList}>Projects</Link>
