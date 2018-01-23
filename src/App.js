@@ -10,6 +10,7 @@ import './App.css';
 import ProjectsList from './components/ProjectsList';
 import styled from 'styled-components';
 import About from './components/About';
+import Landing from './components/Landing';
 
 class App extends Component {
   render() {
@@ -24,11 +25,13 @@ class App extends Component {
           </div>
          
           <div className="links">
+            <Link to="/" component={Landing}>Home</Link>
             <Link to="/about" component={About}>About</Link> 
             <Link to="/Projects" component={ProjectsList}>Projects</Link>
           </div>   
         </header>
         <Switch>
+          <Route exact path="/" component={Landing} />
           <Route path="/Projects" component={ProjectsList} />
           <Route path="/about" component={About} />
         </Switch>

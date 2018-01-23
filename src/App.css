@@ -76,6 +76,15 @@
   letter-spacing: .05em;
 }
 
+.Landing {
+  color: #fff;
+  text-align: left;
+  padding: 2rem 10%;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;
+}
+
 @media only screen and (max-width: 500px) {
   body {
     width: 100%;
@@ -90,7 +99,7 @@
   }
 
   .App-logo {
-    height: 28px;
+    height: 50px;
   }
 
   .links {
