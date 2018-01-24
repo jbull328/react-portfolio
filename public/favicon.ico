@@ -1,0 +1,30 @@
+<svg width="287" height="163" viewBox="0 0 287 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Vector</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(261 300)">
+<g id="Vector" filter="url(#filter0_d)">
+<use xlink:href="#path0_stroke" transform="translate(-254 -297)" fill="url(#paint0_linear)"/>
+<use xlink:href="#path0_stroke" transform="translate(-254 -297)" fill="url(#paint1_linear)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="-261" y="-300" width="287" height="163" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-120 -101.5 13352.6 -15786.3 -6539.78 7959.64)">
+<stop offset="0" stop-color="#24FA11"/>
+<stop offset="1" stop-color="#05C3FF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.67186e-14 149.43 -273.035 9.14996e-15 273.035 -9.14996e-15)">
+<stop offset="0.0301144" stop-color="#07FAFA"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<path id="path0_stroke" d="M 75.9207 -2.1625L -2.07933 72.8375L 2.07933 77.1625L 80.0793 2.1625L 75.9207 -2.1625ZM -2.08632 73.5515L 75.9137 151.551L 80.1563 147.309L 2.15632 69.3088L -2.08632 73.5515ZM 197.114 151.593L 275.114 76.5926L 270.956 72.2676L 192.956 147.268L 197.114 151.593ZM 275.121 75.8787L 197.121 -2.12132L 192.879 2.12132L 270.879 80.1213L 275.121 75.8787ZM 182 19L 91 114L 95.3329 118.15L 186.333 23.1504L 182 19Z"/>
+</defs>
+</svg>
