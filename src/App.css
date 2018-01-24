@@ -107,6 +107,9 @@
     flex-direction: column;
   }
   
+  .brand {
+    font-size: 1em;
+  }
 }
 
 .social {

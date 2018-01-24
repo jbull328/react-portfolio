@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Social from './SocialMedia';
 
 class Landing extends Component {
   render () {
@@ -9,6 +10,7 @@ class Landing extends Component {
             <br/>Thanks, and enjoy.<br/>
           John
         </p>
+        <Social />
       </div>
     )
   }
