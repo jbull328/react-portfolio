@@ -25,15 +25,15 @@ class App extends Component {
           </div>
          
           <div className="links">
-            <Link to="http://jbull.co/" component={Landing}>Home</Link>
-            <Link to="http://jbull.co/about" component={About}>About</Link> 
-            <Link to="http://jbull.co/Projects" component={ProjectsList}>Projects</Link>
+            <Link to="/" component={Landing}>Home</Link>
+            <Link to="/about" component={About}>About</Link> 
+            <Link to="/Projects" component={ProjectsList}>Projects</Link>
           </div>   
         </header>
         <Switch>
-          <Route exact path="/" component={Landing} />
-          <Route path="/Projects" component={ProjectsList} />
-          <Route path="/about" component={About} />
+          <Route exact path="http://jbull.co/" component={Landing} />
+          <Route path="http://jbull.co/Projects" component={ProjectsList} />
+          <Route path="http://jbull.co/about" component={About} />
         </Switch>
           
         </div>
