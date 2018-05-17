@@ -31,9 +31,9 @@ class App extends Component {
           </div>   
         </header>
         <Switch>
-          <Route exact path="http://jbull.co/" component={Landing} />
-          <Route path="http://jbull.co/Projects" component={ProjectsList} />
-          <Route path="http://jbull.co/about" component={About} />
+          <Route exact path="/" component={Landing} />
+          <Route path="/Projects" component={ProjectsList} />
+          <Route path="/about" component={About} />
         </Switch>
           
         </div>
