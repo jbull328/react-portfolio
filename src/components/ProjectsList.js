@@ -30,7 +30,7 @@ class ProjectsList extends Component {
           projectSkills: 'Node.js, Express, EJS, AWS, MongoDB',
           img: centralIMG,
           projectDescription: 'I built this site with Node, Express, and MongoDB, it is hosted on AWS and is something I built to help the FreeCodeCamp community in my area.',
-          projectUrl: "http://centralvalleydevelopers.com",
+          projectUrl: "http://ec2-13-57-104-16.us-west-1.compute.amazonaws.com",
         }, {
           id: 'proj3',
           projectTitle: 'Tee Shirt Picker',
