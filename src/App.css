@@ -102,8 +102,7 @@ body {
     max-width: 312px;
     flex-direction: column;
     background: #fff;
-    border-radius: 4px;
-    margin: 10px auto;
+    margin: 18px auto;
   }
 
   .App-logo {
