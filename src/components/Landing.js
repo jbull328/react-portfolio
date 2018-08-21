@@ -5,7 +5,7 @@ class Landing extends Component {
   render () {
     return (
       <div className="Landing">
-        <h3>Welcome to my protfolio site.</h3>
+        <h3>Welcome to my portfolio site.</h3>
         <p>• 4+ years' professional experience with JavaScript technology on both front-end and back-end web application design and development.
         <br/>• Proficiency in developing web applications with React UI, JQuery, Node, Express, AWS, API integrations, NoSQL Databases.
         <br/>• In-depth experience in front-end web design and development using HTML5, CSS, Bootstrap, Javascript, jQuery, JSON, AJAX, React and Angular 2/4.
