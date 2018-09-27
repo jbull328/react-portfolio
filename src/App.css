@@ -1,6 +1,5 @@
-
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .App-title {
@@ -13,9 +12,9 @@ body {
   padding: 20px;
   color: white;
   font-size: 1.2em;
-} 
+}
 
-.App-header{
+.App-header {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -49,12 +48,12 @@ body {
   flex-direction: column;
   background: #fff;
   min-height: 476px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .projectCard:hover {
-  box-shadow: 0 18px 32px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 18px 32px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .projectCard img {
@@ -71,17 +70,17 @@ body {
   font-size: 20px;
   color: #333;
 }
- 
-.projectCard p { 
+
+.projectCard p {
   line-height: 1.4;
 }
- 
+
 .projectSkills {
   font-size: 12px;
   font-weight: bold;
   color: #999;
   text-transform: uppercase;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
 
 .Landing {
@@ -97,6 +96,17 @@ body {
   body {
     width: 100%;
   }
+
+  .App-header {
+    padding: 0 22px;
+  }
+
+  .projectList {
+    display: flex;
+    flex-direction: column;
+    margin: 4% 4.8%;
+  }
+
   .projectCard {
     display: flex;
     max-width: 312px;
@@ -106,14 +116,15 @@ body {
   }
 
   .App-logo {
-    height: 50px;
+    display: none;
   }
 
   .links {
     display: flex;
     flex-direction: column;
+    padding-right: 18px;
   }
-  
+
   .brand {
     font-size: 1em;
   }
