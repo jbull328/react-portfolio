@@ -7,7 +7,7 @@ class Contact extends Component {
       <div>
       <div>
         <h3>Contact</h3>
-        <p>Email: jackbull328@gmail.com</p>
+        <p>Email: <a href="mailto:jackbull328@gmail.com">jackbull328@gmail.com</a></p>
       </div>
         <Social />
       </div>

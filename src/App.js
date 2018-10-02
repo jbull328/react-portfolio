@@ -20,7 +20,7 @@ class App extends Component {
         <header className="App-header container">
           <img src={logo} className="App-logo" alt="logo" />
           <div className="brand container">
-            <h1 className="App-title">John Bull ~ Software Engineer</h1>
+            <h1 className="App-title">John Bull ~ Web Developer</h1>
             <h3 className="App-title">Available for Hire</h3>
           </div>
          

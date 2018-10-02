@@ -8,6 +8,7 @@ import twitchImg from '../img/twitch.png';
 import inzana from '../img/inzana.png';
 import iec from '../img/IEC.png';
 import dpath from '../img/dpath.png';
+import octocat from '../img/octocat.png';
 
 
 class ProjectsList extends Component {
@@ -23,7 +24,7 @@ class ProjectsList extends Component {
             projectTitle: 'Datapath Website',
             projectSkills: 'Mobile Design, CSS Flexbox, CSS Grid',
             img: dpath,
-            projectDescription: 'Modern Css flexbox, mobile styles, cross browser testing and troubleshooting',
+            projectDescription: 'Modern CSS Flexbox, Mobile Styles, Cross Browser Testing and custom coded Interfaces with JavaScript',
             projectUrl: "https://www.mydatapath.com/",
           }, {
             id: 'proj1',
@@ -74,7 +75,15 @@ class ProjectsList extends Component {
           img: iec,
           projectDescription: 'I created, maintained internal web apps. This included reporting for differnet departments, automating processes, and sending out custom styled html emails to automate tasks.',
           projectUrl: "http://industrialelectricalco.com/",
-        } 
+        },
+        {
+          id: 'proj8',
+          projectTitle: 'More',
+          projectSkills: 'More Examples in Vue, React Native, Node/ Express',
+          img: octocat,
+          projectDescription: 'More examples of my work are on my github, please have a look.',
+         projectUrl: "https://github.com/jbull328",
+      } 
       ];
       this.setState({
         projects,

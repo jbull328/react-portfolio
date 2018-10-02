@@ -38,7 +38,9 @@ body {
   grid-template-columns: repeat(auto-fit, 360px);
   grid-gap: 10%;
   grid-auto-rows: minmax(100px, auto);
-  margin: 4% 4.8%;
+  justify-items: center;
+  align-items: center;
+  margin: 4% 10%;
 }
 
 .projectCard {
@@ -59,6 +61,7 @@ body {
 .projectCard img {
   width: 100%;
   height: auto;
+  max-height: 150px;
 }
 
 .projectCard article {
@@ -128,7 +131,14 @@ body {
   .brand {
     font-size: 1em;
   }
+
+  .aboutInfo {
+    display: flex;
+    flex-direction: column;
+  }
 }
+
+
 
 .social {
   margin-right: 12px;
