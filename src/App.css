@@ -95,6 +95,61 @@ body {
   line-height: 1.4;
 }
 
+.currentEvents {
+  display: flex;
+}
+
+.eventCard {
+  display: flex;
+  margin-left: 80px;
+  max-width: 368px;
+  margin-bottom: 48px;
+  flex-direction: column;
+  background: #998e99;
+  height: 466px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.eventCard:hover {
+  box-shadow: 0 18px 32px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.eventCard img {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+}
+
+.eventCard article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  flex: 1;
+}
+
+.eventCard h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.eventtCard p {
+  line-height: 1.4;
+}
+
+.eventDescription {
+  color: #333;
+}
+
+.eventSkills {
+  font-size: 12px;
+  font-weight: bold;
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
 @media only screen and (max-width: 500px) {
   body {
     width: 100%;
@@ -137,8 +192,6 @@ body {
     flex-direction: column;
   }
 }
-
-
 
 .social {
   margin-right: 12px;
