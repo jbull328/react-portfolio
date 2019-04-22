@@ -184,8 +184,9 @@ body {
   .eventCard {
     display: flex;
     max-width: 312px;
+    min-height: 688px;
     flex-direction: column;
-    background: #fff;
+    background: #c0b4c0;
     margin: 18px auto;
   }
 
