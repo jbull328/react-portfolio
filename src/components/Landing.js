@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Social from "./SocialMedia";
 import octocat from "../img/octocat.png";
+import dpath from "../img/dpath.png";
+import streams from "../img/streams.jpg";
 
 class Landing extends Component {
   state = {
@@ -13,10 +15,11 @@ class Landing extends Component {
         {
           id: "event1",
           eventTitle: "Datapath Website",
-          eventSkills: "Mobile Design, CSS Flexbox, CSS Grid",
-          img: octocat,
+          eventSkills:
+            "Mobile Design, CSS Flexbox, CSS Grid, HubSpot CMS Migration",
+          img: dpath,
           eventDescription:
-            "Modern CSS Flexbox, Mobile Styles, Cross Browser Testing and custom coded Interfaces with JavaScript",
+            "I ported this site from a wordpress demo to the Hubspot based CMS. Which involved reverse engineering site elements in Javascript, with Hubspot methods and template engine. Modern CSS Flexbox, Mobile Styles, Cross Browser Testing and custom coded Interfaces with JavaScript",
           eventUrl: "https://www.mydatapath.com/"
         },
         {
@@ -26,19 +29,20 @@ class Landing extends Component {
             "Bloging, Technical Documentation, Enterprise Software Design",
           img: octocat,
           eventDescription:
-            "A write up/ tutorial of a demo I created to show how Kafka's message streams could be used in a modern web app. Part 1 of 3",
+            "A write up/tutorial of a demo I created to show how Kafka's message streams could be used in a modern web app. Part 1 of 3",
           eventUrl:
             "https://dev.to/jbull328/wash-away-the-crud-with-kafka-streaming-3lik"
         },
         {
           id: "event3",
-          eventTitle: "Kafka Streams and Events in a Web App",
+          eventTitle:
+            "Began Working as a Back End Developer at the Save Mart Companies.",
           eventSkills:
-            "Bloging, Technical Documentation, Enterprise Software Design",
-          img: octocat,
+            "Data Pipline development, Python, Node.js, Redhat, Kubernetes, Kafka, Enterprise Software Design",
+          img: streams,
           eventDescription:
-            "Modern CSS Flexbox, Mobile Styles, Cross Browser Testing and custom coded Interfaces with JavaScript",
-          eventUrl: "https://www.mydatapath.com/"
+            "In Nov. 2018 I started as a Developer on the HR team, where we support 15,000 emploeys, data. We work with HR staff to automate and streamline proccesses and data visulisations.",
+          eventUrl: "#"
         }
       ];
       this.setState({
