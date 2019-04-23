@@ -152,7 +152,65 @@ body {
   letter-spacing: 0.05em;
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 700px) and (min-width: 520px) {
+  body {
+    width: 100%;
+  }
+
+  .App-header {
+    padding: 0 22px;
+  }
+
+  .projectList {
+    display: flex;
+    flex-direction: column;
+    margin: 4% 4.8%;
+  }
+
+  .projectCard {
+    display: flex;
+    max-width: 312px;
+    flex-direction: column;
+    background: #fff;
+    margin: 18px auto;
+  }
+
+  .currentEvents {
+    display: flex;
+    flex-direction: column;
+    margin: 4% 4.8%;
+  }
+
+  .eventCard {
+    display: flex;
+    max-width: 612px;
+    min-height: 988px;
+    flex-direction: column;
+    background: #c0b4c0;
+    margin: 18px auto;
+  }
+
+  .App-logo {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    padding-right: 18px;
+  }
+
+  .brand {
+    font-size: 1em;
+  }
+
+  .aboutInfo {
+    display: flex;
+    flex-direction: column;
+  }
+} */
+
+@media only screen and (max-width: 699px) {
   body {
     width: 100%;
   }

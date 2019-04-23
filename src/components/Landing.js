@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Social from "./SocialMedia";
-import octocat from "../img/octocat.png";
+import devImg from "../img/dev_img.png";
 import dpath from "../img/dpath.png";
 import streams from "../img/streams.jpg";
 
@@ -27,7 +27,7 @@ class Landing extends Component {
           eventTitle: "Kafka Streams and Events in a Web App",
           eventSkills:
             "Bloging, Technical Documentation, Enterprise Software Design",
-          img: octocat,
+          img: devImg,
           eventDescription:
             "A write up/tutorial of a demo I created to show how Kafka's message streams could be used in a modern web app. Part 1 of 3",
           eventUrl:
