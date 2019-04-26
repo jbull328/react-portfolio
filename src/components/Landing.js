@@ -13,16 +13,6 @@ class Landing extends Component {
     try {
       const events = [
         {
-          id: "event1",
-          eventTitle: "Datapath Website",
-          eventSkills:
-            "Mobile Design, CSS Flexbox, CSS Grid, HubSpot CMS Migration",
-          img: dpath,
-          eventDescription:
-            "I ported this site from a wordpress demo to the Hubspot based CMS. Which involved reverse engineering site elements in Javascript, with Hubspot methods and template engine. Modern CSS Flexbox, Mobile Styles, Cross Browser Testing and custom coded Interfaces with JavaScript",
-          eventUrl: "https://www.mydatapath.com/"
-        },
-        {
           id: "event2",
           eventTitle: "Kafka Streams and Events in a Web App",
           eventSkills:
@@ -36,13 +26,23 @@ class Landing extends Component {
         {
           id: "event3",
           eventTitle:
-            "Began Working as a Back End Developer at the Save Mart Companies.",
+            "Began Working as a  Senior Developer at the Save Mart Companies.",
           eventSkills:
             "Data Pipline development, Python, Node.js, Redhat, Kubernetes, Kafka, Enterprise Software Design",
           img: streams,
           eventDescription:
             "In Nov. 2018 I started as a Developer on the HR team, where we support 15,000 emploeys, data. We work with HR staff to automate and streamline proccesses and data visulisations.",
           eventUrl: "#"
+        },
+        {
+          id: "event1",
+          eventTitle: "Datapath Website",
+          eventSkills:
+            "Mobile Design, CSS Flexbox, CSS Grid, HubSpot CMS Migration",
+          img: dpath,
+          eventDescription:
+            "I ported this site from a wordpress demo to the Hubspot based CMS. Which involved reverse engineering site elements in Javascript, with Hubspot methods and template engine. Modern CSS Flexbox, Mobile Styles, Cross Browser Testing and custom coded Interfaces with JavaScript",
+          eventUrl: "https://www.mydatapath.com/"
         }
       ];
       this.setState({
@@ -57,29 +57,29 @@ class Landing extends Component {
     const events = this.state;
     return (
       <div className="Landing">
-        <h3>A develeper with skills all and experience.</h3>
+        <h3>A Senior Develeper with skills and experience.</h3>
         <p>
-          • 4+ years professional experience with Software Engineering on both
+          • 5 years professional experience with Software Engineering on both
           Front End and Back End web application design and development.
-          <br />• Proficiency in developing web applications with React UI,
-          Vue.js JQuery, Node, Express, AWS, API Design and integration, NoSQL
-          Databases(MongoDB) and SQL Databases.
-          <br />• In-depth experience in front-end web development and
+          <br />• Proficiency in developing web applications with React, Vue.js,
+          Node, Express, AWS, API Design and integration, Cloud Integrations,
+          NoSQL Databases(MongoDB) and SQL Databases.
+          <br />• In-depth experience in front end web development and
           development using HTML5, CSS, Bootstrap, Javascript, jQuery, JSON,
-          AJAX, React and Angular 2/4.
+          AJAX, React, and Vue.
           <br />• Great team player with strong communication skills,
           problem-solving skills and ability to learn as well as adapting to new
           technology.
+          <br />• A colaberative leader, with experience working with and
+          assisting Jr. Developers. I have been active in my local developer
+          community by helping begginers get a taste of the dev life.
           <br />• Agile Methodology, with remote teams or in-house team
-          <br />I am a family man, I have two great kids and I love spending as
-          much time with them as I can.
-          <br /> I love creating things outside of code and it fules my fire, to
-          cook, brew my own beer, and contribute in my community.
+          <br />• I am a family man, I have two great kids and I love spending
+          as much time with them as I can.
+          <br />• I love creating things outside of code and it fules my fire,
+          to cook, brew my own beer, and contribute in my community.
           <br />
           <br />
-          Thanks, and enjoy.
-          <br />
-          John
         </p>
         <div className="currentEvents">
           {this.state.events.map(events => {
