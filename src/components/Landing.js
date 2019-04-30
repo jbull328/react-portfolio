@@ -26,7 +26,7 @@ class Landing extends Component {
         {
           id: "event3",
           eventTitle:
-            "Began Working as a  Senior Developer at the Save Mart Companies.",
+            "Began Working as a Senior Developer at the Save Mart Companies.",
           eventSkills:
             "Data Pipline development, Python, Node.js, Redhat, Kubernetes, Kafka, Enterprise Software Design",
           img: streams,
