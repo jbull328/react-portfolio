@@ -20,7 +20,15 @@ class ProjectsList extends Component {
     try {
       const projects = [
           {
-            id: 'proj8',
+            id: 'proj10',
+            projectTitle: 'Quality Control Produce App',
+            projectSkills: 'Mobile App, Vue.js, Node.js, Fullstack',
+            img: octocat,
+            projectDescription: 'Product design from start to finish, discovery, implimentation and deployment for key business segment. Mobile high volume product warehouse tracking and reporting app.',
+            projectUrl: "https://jbull.co/projects",
+          },
+          {
+            id: 'proj9',
             projectTitle: 'Datapath Website',
             projectSkills: 'Mobile Design, CSS Flexbox, CSS Grid',
             img: dpath,
@@ -33,13 +41,6 @@ class ProjectsList extends Component {
             img: movieImg,
             projectDescription: 'Using the powerful Async Await to pull a dynamic list of Movies from an API and diplay them beautifly with styled components',
             projectUrl: "https://ancient-lowlands-96970.herokuapp.com/",
-          },  {
-            id: 'proj2',
-            projectTitle: 'Central Valley Developers',
-            projectSkills: 'Node.js, Express, EJS, AWS, MongoDB',
-            img: centralIMG,
-            projectDescription: 'I built this site with Node, Express, and MongoDB, it is hosted on AWS and is something I built to help the FreeCodeCamp community in my area.',
-            projectUrl: "http://ec2-13-57-104-16.us-west-1.compute.amazonaws.com",
           }, {
             id: 'proj3',
             projectTitle: 'Tee Shirt Picker',

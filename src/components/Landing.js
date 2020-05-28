@@ -62,10 +62,10 @@ class Landing extends Component {
           • 5 years professional experience with Software Engineering on both
           Front End and Back End web application design and development.
           <br />• Proficiency in developing web applications with React, Vue.js,
-          Node, Express, AWS, API Design and integration, Cloud Integrations,
+          Node, Python, Express, AWS, API Design and integration, Cloud Integrations,
           NoSQL Databases(MongoDB) and SQL Databases.
-          <br />• In-depth experience in front end web development and
-          development using HTML5, CSS, Bootstrap, Javascript, jQuery, JSON,
+          <br />• In-depth experience in front end web development
+          using HTML5, CSS, Bootstrap, Javascript, jQuery, JSON,
           AJAX, React, and Vue.
           <br />• Great team player with strong communication skills,
           problem-solving skills and ability to learn as well as adapting to new
