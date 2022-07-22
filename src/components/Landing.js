@@ -61,7 +61,7 @@ class Landing extends Component {
         <p>
           • 5 years professional experience with Software Engineering on both
           Front End and Back End web application design and development.
-          <br />• Proficiency in developing web applications with React, Vue.js,
+          <br />• Proficiency in developing web applications with Vue.js (Vue3, Vue2, Composition API, Vuex, Pinia),
           Node, Python, Express, AWS, API Design and integration, Cloud Integrations,
           NoSQL Databases(MongoDB) and SQL Databases.
           <br />• In-depth experience in front end web development
@@ -74,8 +74,6 @@ class Landing extends Component {
           assisting Jr. Developers. I have been active in my local developer
           community by helping begginers get a taste of the dev life.
           <br />• Agile Methodology, with remote teams or in-house team
-          <br />• I am a family man, I have two great kids and I love spending
-          as much time with them as I can.
           <br />• I love creating things outside of code and it fules my fire,
           to cook, brew my own beer, and contribute in my community.
           <br />

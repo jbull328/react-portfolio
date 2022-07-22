@@ -40,7 +40,7 @@ body {
   grid-auto-rows: minmax(100px, auto);
   justify-items: center;
   align-items: center;
-  margin: 4% 10%;
+  margin: 14% 10%;
 }
 
 .projectCard {
@@ -71,7 +71,7 @@ body {
 
 .projectCard h3 {
   font-size: 20px;
-  color: #333;
+  color: #232323;
 }
 
 .projectCard p {
@@ -81,7 +81,7 @@ body {
 .projectSkills {
   font-size: 12px;
   font-weight: bold;
-  color: #999;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -106,7 +106,7 @@ body {
   border-radius: 2.2px;
   margin-bottom: 48px;
   flex-direction: column;
-  background: #c2bfc2;
+  background: #232323;
   height: 646px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -133,7 +133,7 @@ body {
 
 .eventCard h3 {
   font-size: 20px;
-  color: #333;
+  color: #fff;
 }
 
 .eventtCard p {
@@ -141,7 +141,7 @@ body {
 }
 
 .eventDescription {
-  color: #333;
+  color: #fff;
 }
 
 .eventSkills {
@@ -163,9 +163,10 @@ body {
   }
 
   .projectList {
-    display: flex;
-    flex-direction: column;
-    margin: 4% 4.8%;
+    display: grid;
+    grid-gap: none;
+    align-items: baseline;
+    margin: 10%;
   }
 
   .projectCard {
@@ -211,6 +212,7 @@ body {
     flex-direction: column;
   }
 }
+
 
 .social {
   margin-right: 12px;
