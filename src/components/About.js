@@ -14,11 +14,10 @@ class About extends Component {
             <h2>The right mix of experience and creativity</h2>
             <p>
               Creative problem solver with experience working with diverse,
-              distributed teams. Fullstack projects built with Node.js, Express,
-              Javascript, React, MongoDB, hosted on AWS ec2, and Heroku. Two
-              years experience as a FrontEnd Developer at an agency, focusing on
-              mobile styling and cross-browser optimization/testing. Freelancing
-              experience and Corperate Software Engineering experience. I keep
+              distributed teams. Fullstack projects built with Vue.js, Node.js, Express,
+              Javascript, hosted on AWS ec2. Four plus
+              years experience as a Developer, focusing on
+              solving problems and adding value to the things I work on. I keep
               it light, work hard and ask questions to get to bottom of things.
               <br />
               <br />I can generaly be found outside, hiking trails, trying to go

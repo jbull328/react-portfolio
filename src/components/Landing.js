@@ -65,8 +65,7 @@ class Landing extends Component {
           Node, Python, Express, AWS, API Design and integration, Cloud Integrations,
           NoSQL Databases(MongoDB) and SQL Databases.
           <br />• In-depth experience in front end web development
-          using HTML5, CSS, Bootstrap, Javascript, jQuery, JSON,
-          AJAX, React, and Vue.
+          using Vue, Javascript, jQuery, JSON, Quasar, Vuetify.
           <br />• Great team player with strong communication skills,
           problem-solving skills and ability to learn as well as adapting to new
           technology.

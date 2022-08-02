@@ -28,6 +28,14 @@ class ProjectsList extends Component {
             projectUrl: "https://www.hawksoft.com/",
           },
           {
+            id: 'proj25',
+            projectTitle: 'Marketing Tracking App',
+            projectSkills: 'Mobile App, Vue.js, Node.js, Fullstack',
+            img: octocat,
+            projectDescription: 'Lead Jr. Vue.js developers to build API-integrated, Bootstrap UI, marketing-tracking tool with complex featureset interactions, enabling 600+ stores to more accurately adjust supply based on demand',
+            projectUrl: "https://jbull.co/projects",
+          },
+          {
             id: 'proj2',
             projectTitle: 'Quality Control Produce App',
             projectSkills: 'Mobile App, Vue.js, Node.js, Fullstack',
