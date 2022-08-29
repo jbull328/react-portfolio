@@ -57,15 +57,15 @@ class Landing extends Component {
     const events = this.state;
     return (
       <div className="Landing">
-        <h3>A Senior Develeper with skills and experience.</h3>
+        <h3>A Full Stack Develeper with skills and experience.</h3>
         <p>
-          • 5 years professional experience with Software Engineering on both
+          • 4 years professional experience with Software Engineering on both
           Front End and Back End web application design and development.
           <br />• Proficiency in developing web applications with Vue.js (Vue3, Vue2, Composition API, Vuex, Pinia),
           Node, Python, Express, AWS, API Design and integration, Cloud Integrations,
           NoSQL Databases(MongoDB) and SQL Databases.
           <br />• In-depth experience in front end web development
-          using Vue, Javascript, jQuery, JSON, Quasar, Vuetify.
+          using Vue, Javascript, JSON, Quasar, Vuetify.
           <br />• Great team player with strong communication skills,
           problem-solving skills and ability to learn as well as adapting to new
           technology.
