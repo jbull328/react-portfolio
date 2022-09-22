@@ -16,22 +16,22 @@ class Landing extends Component {
           id: "event2",
           eventTitle: "Kafka Streams and Events in a Web App",
           eventSkills:
-            "Bloging, Technical Documentation, Enterprise Software Design",
+            "Blogging, Technical Documentation, Enterprise Software Design",
           img: devImg,
           eventDescription:
-            "A write up/tutorial of a demo I created to show how Kafka's message streams could be used in a modern web app. Part 1 of 3",
+            "A write-up/tutorial of a demo I created to show how Kafka's message streams could be used in a modern web app. Part 1 of 3",
           eventUrl:
             "https://dev.to/jbull328/wash-away-the-crud-with-kafka-streaming-3lik"
         },
         {
           id: "event3",
           eventTitle:
-            "Began Working as a Senior Developer at the Save Mart Companies.",
+            "Began Working as a Full Stack Developer at the Save Mart Companies.",
           eventSkills:
             "Data Pipline development, Python, Node.js, Redhat, Kubernetes, Kafka, Enterprise Software Design",
           img: streams,
           eventDescription:
-            "In Nov. 2018 I started as a Developer on the HR team, where we support 15,000 emploeys, data. We work with HR staff to automate and streamline proccesses and data visulisations.",
+            "In Nov. 2018 I started as a Developer on the HR team, where we support 15,000 employees' data. We work with HR staff to automate and streamline processes and data visualisations.",
           eventUrl: "#"
         },
         {
@@ -57,24 +57,27 @@ class Landing extends Component {
     const events = this.state;
     return (
       <div className="Landing">
-        <h3>A Full Stack Develeper with skills and experience.</h3>
+        <h3>A Full Stack Developer with skills and experience.</h3>
         <p>
-          • 4 years professional experience with Software Engineering on both
+          • 4 years of professional experience in Software Engineering in both
           Front End and Back End web application design and development.
-          <br />• Proficiency in developing web applications with Vue.js (Vue3, Vue2, Composition API, Vuex, Pinia),
+          <br />• Proficiency in developing web applications with React, Vue.js,
           Node, Python, Express, AWS, API Design and integration, Cloud Integrations,
           NoSQL Databases(MongoDB) and SQL Databases.
           <br />• In-depth experience in front end web development
-          using Vue, Javascript, JSON, Quasar, Vuetify.
+          using HTML5, CSS, Bootstrap, Javascript, jQuery, JSON,
+          AJAX, React, and Vue.
           <br />• Great team player with strong communication skills,
-          problem-solving skills and ability to learn as well as adapting to new
-          technology.
-          <br />• A colaberative leader, with experience working with and
+          problem-solving skills, and ability to learn to adapt to new
+          technologies.
+          <br />• A collaborative leader, with experience working with and
           assisting Jr. Developers. I have been active in my local developer
-          community by helping begginers get a taste of the dev life.
+          community by helping beginners get a taste of the dev life.
           <br />• Agile Methodology, with remote teams or in-house team
-          <br />• I love creating things outside of code and it fules my fire,
-          to cook, brew my own beer, and contribute in my community.
+          <br />• I am a family man have two great kids and I love spending
+          as much time with them as possible.
+          <br />• I love creating things outside of code and it fuels my fire,
+          to cook, brew my beer, and contribute to my community.
           <br />
           <br />
         </p>
