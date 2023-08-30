@@ -9,6 +9,7 @@ import inzana from '../img/inzana.png';
 import iec from '../img/IEC.png';
 import dpath from '../img/dpath.png';
 import octocat from '../img/octocat.png';
+import citrusAd from '../img/citrusAd.png';
 
 
 class ProjectsList extends Component {
