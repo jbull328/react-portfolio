@@ -20,6 +20,14 @@ class ProjectsList extends Component {
     try {
       const projects = [
           {
+            id: 'proj15',
+            projectTitle: 'Peapod Digital Labs',
+            projectSkills: 'Vue.js, E-Commerce, Citrus-Ad, Vuex',
+            img: citrusAd,
+            projectDescription: 'Implemented and supported an ad campaign platform that brought $500,000 per month in new revenue to the business.',
+            projectUrl: "https://stopandshop.com",
+          },
+          {
             id: 'proj1',
             projectTitle: 'Hawksoft CMS',
             projectSkills: 'Vue.js, Typescript, Composition Api, Vue 3, Pinia, Vuex, B2B',

@@ -59,9 +59,9 @@ class Landing extends Component {
       <div className="Landing">
         <h3>A Full Stack Developer with skills and experience.</h3>
         <p>
-          • 4 years of professional experience in Software Engineering in both
+          • 10 years of professional experience in Software Engineering in both
           Front End and Back End web application design and development.
-          <br />• Proficiency in developing web applications with React, Vue.js,
+          <br />• Proficiency in developing web applications with Vue.js,
           Node, Python, Express, AWS, API Design and integration, Cloud Integrations,
           NoSQL Databases(MongoDB) and SQL Databases.
           <br />• In-depth experience in front end web development
